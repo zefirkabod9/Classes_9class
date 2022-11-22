@@ -7,8 +7,7 @@ class Human {
 		bool male;
 		bool sleep;
 		bool checkSleep() {
-			if (!sleep)
-			{
+			if (!sleep){
 				cout << "\nYou are sleep!";
 				return false;
 			}
@@ -35,10 +34,11 @@ class Human {
 			this->hight = hight;
 			this->weight = weight;
 		}
-
-		void sleep() {
+		
+		void switchSleep() {
 			sleep = !sleep;
 		}
+		
 		void walk() {
 			if (checkSleep()) cout << "\nNow you walking!";
 		}

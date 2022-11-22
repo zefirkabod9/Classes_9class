@@ -11,7 +11,5 @@ int main() {
     p1.call();
     p1.photo();*/
     Human h1 = Human("Armix", "Klymenko", 14, 205.4, 50.6);
-    h1.eat();
-    h1.walk();
     return 0;
 }
