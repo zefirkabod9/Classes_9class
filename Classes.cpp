@@ -14,5 +14,6 @@ int main() {
     h1.switchSleep();
     h1.eat();
     h1.walk();
+
     return 0;
 }
