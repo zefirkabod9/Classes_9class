@@ -7,7 +7,7 @@ class Human {
 		bool male;
 		bool sleep;
 		bool checkSleep() {
-			if (!sleep){
+			if (sleep){
 				cout << "\nYou are sleep!";
 				return false;
 			}
@@ -45,6 +45,7 @@ class Human {
 		void eat() {
 			if (checkSleep()) cout << "\nNow you eating!";
 		}
+
 
 };
 
