@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -45,7 +45,11 @@ class Human {
 		void eat() {
 			if (checkSleep()) cout << "\nNow you eating!";
 		}
-
-
+		void run() {
+			if (checkSleep()) cout << "\nNow you runing!";
+		}
+		void phoneCall() {
+			cout << "\nCalling!";
+		}
 };
 
